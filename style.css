@@ -1,0 +1,22 @@
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.container:after,
+.container:before {
+    content: '';
+    display: block;
+    clear: both;
+}
+.hljs {
+    background: #f3f3f3;
+    color: #313131;
+    font-family: monospace, serif;
+    font-size: 1em;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+.hljs-title {
+    color: #800;
+    font-weight: 700;
+}
