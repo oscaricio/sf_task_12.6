@@ -177,7 +177,7 @@ function getPerfectPartner($surname, $name, $patronomyc, $arPersons)
 		/**
 		 * По идее, неопределенный пол также не равен полу
 		 */
-	} while ($genderFullName === $genderRandPerson /*|| $genderRandPerson === 0*/);
+	} while ($genderFullName === $genderRandPerson || $genderRandPerson === 0);
 
 
 	$html = '<div style="background: #F8F8F8; overflow: auto; width: auto; border: solid #D1D9D7; border-width: .1em; padding: .2em .6em;">';
